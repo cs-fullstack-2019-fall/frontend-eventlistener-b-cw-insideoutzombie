@@ -1,6 +1,7 @@
 # frontend-eventListener_b-cw
-
+#### Partial 1/1 See index.js and index.css for comments SCore : 3
 ### Problem 1:
+##### Partial 
 Create a simple grid system as seen in the attached picture. Put a button called "1" in your menu section and another button called "2" in your main section.
 Put the number 0 in your title.
 
