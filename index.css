@@ -2,42 +2,33 @@ html, body{
     height: 100%;
 }
 
-/* .container{
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: 100px 1fr auto;
-    grid-template-areas:
-        "title main"
-        "menu main"
-        "menu footer";
-} */
-
 .container {
   display: grid;
-  /* grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 40% 100px auto;
-  grid-column-gap: 50px;
-  grid-row-gap: 10px; */
+}
+
+menu {
+  background-color: purple;
 }
 
 header {
-    /* grid-area: title; */
     background-color: lightblue;
+    grid-column: 1;
+    grid-column-end: 4;
+    height: 50px;
 }
 
 aside{
-    /* grid-area: menu; */
     background: purple;
 }
 
 section{
-    /* grid-area: main; */
     background-color: orange;
 }
 
 footer{
-    
     background-color: darkblue;
     grid-row: 5;
     grid-column: 1;
+    grid-column-end: 4;
+    height: 50px;
 }
